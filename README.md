@@ -15,6 +15,7 @@
         ... 
         SwooleTW\Http\LaravelServiceProvider::class,
     ]
+```    
 - Copy Dockerfile in Swoole folder to folder {name_folder_your_app} 
 - Run command docker build -t {tag} . 
 - Run command docker run --rm --name swoole -p 80:80 -d {tag}:latest
